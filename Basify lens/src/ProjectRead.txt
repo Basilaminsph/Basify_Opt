@@ -1,0 +1,1 @@
+This is a wearable computer that I built, with a simple system that runs on an esp32 WROOM.
