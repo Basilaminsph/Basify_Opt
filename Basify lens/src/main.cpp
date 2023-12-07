@@ -15,8 +15,8 @@
 #define OLED_RESET -1
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 WiFiMulti wifiMulti;
-const char* ssid = "BOYSA HOUSE";
-const char* password = "Boysa2023218";
+const char* ssid = "Wifi name";
+const char* password = "Basil's wifi password";
 const int httpsPort = 443;                                                          
 const String url = "http://api.coindesk.com/v1/bpi/currentprice/BTC.json";
 const String historyURL = "http://api.coindesk.com/v1/bpi/historical/close.json";
